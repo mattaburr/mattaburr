@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matthew Aaron Burr – Attorney at Law</title>
+  <style>
+    /* Reset & base */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Helvetica', 'Arial', sans-serif; 
+      background-color: #fff; 
+      color: #000; 
+      line-height: 1.6; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    /* Container to mimic card */
+    .container {
+      max-width: 700px;
+      width: 100%;
+    }
+
+    /* Name / Title */
+    .name {
+      font-size: 2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    /* Section spacing */
+    .section {
+      margin-bottom: 25px;
+    }
+
+    /* Subtle credential (PP-ASEL) */
+    .credential {
+      font-size: 0.95em;
+      margin-top: 5px;
+    }
+
+    /* Contact info */
+    .contact p {
+      margin-bottom: 8px;
+    }
+
+    /* Associations / footer */
+    .associations {
+      font-size: 0.8em;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    /* Links */
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Name / Title -->
+    <div class="section">
+      <div class="name">Matthew Aaron Burr, J.D.</div>
+      <div class="title">Attorney at Law</div>
+    </div>
+
+    <!-- Education & Credential -->
+    <div class="section">
+      <p>University of Arkansas School of Law</p>
+      <p>B.A., [Undergraduate University]</p>
+      <p class="credential">PP-ASEL</p>
+    </div>
+
+    <!-- Contact -->
+    <div class="section contact">
+      <p><strong>U.S. Mailing Address:</strong><br>[Street Address]<br>Arkansas, USA</p>
+      <p><strong>Costa Rica Office:</strong><br>[Street Address]<br>San José, Costa Rica</p>
+      <p><strong>Email:</strong> <a href="mailto:matt.a.burr@gmail.com">matt.a.burr@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+15013509757">(501) 350-9757</a></p>
+    </div>
+
+    <!-- Associations -->
+    <div class="associations">
+      Member: AOPA | AACDL | ATLA
+    </div>
+
+  </div>
+</body>
+</html>
